@@ -13,7 +13,7 @@ public class Class1
     public global::System.Int32 Num2 { get => num2; set => num2 = value; }
 
 # Operación sumas
-    public int sumar()
+    public double sumar()
     {
         return num1 + num2;
 

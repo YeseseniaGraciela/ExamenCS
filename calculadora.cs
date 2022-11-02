@@ -13,7 +13,7 @@ public class Class1
     public global::System.Int32 Num2 { get => num2; set => num2 = value; }
     
     #Operación sumas
-    
+   
     
     
     
@@ -30,7 +30,10 @@ public class Class1
     
     
     #Operación divivir
-    
+    public double division()
+    {
+        return num1 / num2;
+    }
     
     
     

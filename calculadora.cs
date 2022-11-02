@@ -11,28 +11,31 @@ public class Class1
 
     public global::System.Int32 Num1 { get => num1; set => num1 = value; }
     public global::System.Int32 Num2 { get => num2; set => num2 = value; }
-
-# Operación sumas
-
-
-
-
-# Operación restar
-
-
-
-
-
-# Operación multiplicar
+    
+    #Operación sumas
+   
+    
+    
+    
+    #Operación restar
+    
+    
+    
+    
+    
+    #Operación multiplicar
+    # Operación multiplicar
     public double multiplicacion()
     {
         return num1 * num2;
     }
 
-# Operación divivir
+    #Operación divivir
+    public double division()
+    {
+        return num1 / num2;
+    }
+    
+    
+    }
 
-
-
-
-
-}

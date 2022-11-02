@@ -24,7 +24,7 @@ public class Class1
 
 
 # Operación multiplicar
-    public int multiplicacion()
+    public double multiplicacion()
     {
         return num1 * num2;
     }

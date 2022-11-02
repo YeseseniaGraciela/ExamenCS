@@ -24,11 +24,12 @@ public class Class1
     
     
     #Operación multiplicar
-    
-    
-    
-    
-    
+    # Operación multiplicar
+    public double multiplicacion()
+    {
+        return num1 * num2;
+    }
+
     #Operación divivir
     public double division()
     {
@@ -36,6 +37,5 @@ public class Class1
     }
     
     
-    
+    }
 
-}

@@ -12,20 +12,23 @@ public class Class1
     public global::System.Int32 Num1 { get => num1; set => num1 = value; }
     public global::System.Int32 Num2 { get => num2; set => num2 = value; }
 
-# Operación sumas
+# Operación sumar
+    public double sumar()
+    {
+        return num1 + num2;
 
-
-
-
-# Operación restar
+    }
+    
+    # Operación restar
 
     public int Resta()
     {
         return num1 - num2;
     }
+    
+    
 
-# Operación multiplicar
-# Operación multiplicar
+    # Operación multiplicar
     public double multiplicacion()
     {
         return num1 * num2;
@@ -36,7 +39,6 @@ public class Class1
     {
         return num1 / num2;
     }
-    
     
     }
 
